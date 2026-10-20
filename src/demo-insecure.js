@@ -1,3 +1,4 @@
+/* global window, URLSearchParams */
 /**
  * ARCHIVO DE PRÁCTICA EDUCATIVA — CÓDIGO INTENCIONALMENTE INSEGURO
  *
