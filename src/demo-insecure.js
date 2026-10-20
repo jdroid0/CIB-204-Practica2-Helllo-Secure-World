@@ -18,5 +18,5 @@ export function renderGreetingInsecure(outputElement) {
   const name = params.get('name') ?? '';
   // ✗ INSEGURO: innerHTML interpreta el contenido como HTML
   // Si name = '<script>alert("XSS")</script>', el navegador lo ejecuta
-  outputElement.innerHTML = `<p>¡Hola, ${name}!</p>`;
+  outputElement.textContent = `¡Hola, ${name}!`;
 }
