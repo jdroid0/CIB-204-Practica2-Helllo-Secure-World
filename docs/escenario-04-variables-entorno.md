@@ -1,6 +1,5 @@
 # Escenario 04 - Validación segura de variables de entorno
 
-## Objetivo
 Demostrar cómo Node.js comprueba la disponibilidad de una variable
 de entorno sin revelar su contenido.
 
@@ -39,7 +38,7 @@ en los registros de la aplicación.
 ## Limitación
 Se realizó una simulación local con un marcador ficticio.
 No se configuró un secreto almacenado en GitHub Codespaces o
-GitHub Actions, por lo que ese mecanismo no fue validado.
+GitHub Actions
 
 Además, una variable de entorno no garantiza por sí sola que
 una credencial sea segura o que no pueda ser leída por un
